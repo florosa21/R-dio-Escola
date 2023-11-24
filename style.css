@@ -58,7 +58,7 @@ img {
 
 border-radius: 30px;
     color: var(--vermelha);
- box-shadow: 3px, 3px, 0 var(--cinza);
+ box-shadow: 3px 3px 0 var(--cinza);
  color: var(--vermelha);
     cursor: pointer;
     /*tipo do cursor do mouse*/
