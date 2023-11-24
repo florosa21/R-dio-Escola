@@ -45,7 +45,55 @@ h1 {
     padding: 10px;
 
      }
-
+     
+    .tecla {
+      background-image: url(image/aplausos.svg);
+      background-size:contain;
+      background-repeat: no-repeat;
+      /*coloca de fundo da tecla*/
+      border-radius: 30px;
+      /*arredonda a borda da tecla*/
+      box-shadow: 3px 3px 0 var(--cinza);
+      /*sobra da tecla*/
+      color: var(--vermelha);
+      /*cor da letra da tecla*/
+      cursor: pointer;
+      /*tipo do cursor do mouse*/
+      height: 120px;
+      /*altura da tecla*/
+      font-size: 1.75em;
+      /*tamanho da letra*/
+      font-weight: bold;
+      /*aletra em negrito*/
+      line-height: 120px;
+  
+      text-align: center;
+      /*centraliza o texto*/
+      width: 120px;
+      /*comprimento da tecla*/
+    }
+    
+    .tecla.ativa,
+    .tecla:active {
+      background-color: var(--vermelha);
+      /*cor de fundo da tecla quando clicada*/
+      border: 4px solid  var(--vermelha);
+      box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
+      color: var(--branca);
+      outline: none;
+    }
+    
+    .tecla.focus,
+    .tecla:focus {
+      outline: none;
+      box-shadow: 1px 1px 10px var(--luz);
+    }
+    
+    .tecla.active:focus,
+    .tecla:active:focus {
+      box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+    }
+    
 
 
 
