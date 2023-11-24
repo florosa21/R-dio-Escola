@@ -28,6 +28,10 @@ h1 {
  margin-bottom: 20px;
  font-size: 2rem;
  }
+ img{
+    width: 100px;
+    height: 100px;
+ }
 
  .teclado{ 
     background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
