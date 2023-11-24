@@ -45,16 +45,13 @@ h1 {
     padding: 10px;
 
      }
-     
+
     .tecla {
-      background-image: url(image/aplausos.svg);
-      background-size:contain;
-      background-repeat: no-repeat;
-      /*coloca de fundo da tecla*/
-      border-radius: 30px;
-      /*arredonda a borda da tecla*/
-      box-shadow: 3px 3px 0 var(--cinza);
-      /*sobra da tecla*/
+        display: flex;
+      justify-content: center;
+      align-items: center;
+     
+
       color: var(--vermelha);
       /*cor da letra da tecla*/
       cursor: pointer;
